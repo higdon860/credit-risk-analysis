@@ -75,7 +75,6 @@ The analysis uses a comprehensive credit dataset containing **6,000 credit appli
 credit-risk-analysis/
 ├── README.md                          # Project documentation
 ├── .gitignore                         # Git ignore rules
-├── credit-risk-analysis.Rproj         # RStudio project file
 ├── data/
 │   ├── raw/
 │   │   └── data.csv                   # Original dataset
