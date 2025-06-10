@@ -81,24 +81,16 @@ credit-risk-analysis/
 │   │   └── data.csv                   # Original dataset
 │   └── processed/
 │       └── data_cleaned.csv           # Cleaned dataset
-├── scripts/
-│   ├── 01_data_preparation.R          # Data cleaning & validation
-│   ├── 02_exploratory_analysis.R      # EDA and visualization
-│   ├── 03_statistical_modeling.R      # Statistical analysis
-│   └── functions/
-│       └── helper_functions.R         # Custom functions
+├── scripts/         
+│   └──  statistical_modeling.R      # Data cleaning, statistical analysis and visualization
 ├── outputs/
 │   ├── figures/
 │   │   ├── duration_vs_credit_class.png
-│   │   ├── age_distribution.png
-│   │   ├── savings_status_analysis.png
-│   │   └── credit_amount_patterns.png
-│   └── tables/
-│       ├── summary_statistics.csv
-│       └── model_results.csv
-└── docs/
-    ├── analysis_report.Rmd           # Comprehensive analysis report
-    └── methodology.md                # Detailed methodology
+│   │   ├── credit_amount_vs_credit_class.png
+│   │   ├── savings_status_vs_credit_amount_by_credit_class.png
+│   │   ├── savings_status_vs_loan_duration_by_credit_class.png
+│   │   ├── savings_status_vs_credit_class.png
+│   │   └── age_vs_credit_class.png
 ```
 
 ## 🛠️ Technologies Used
