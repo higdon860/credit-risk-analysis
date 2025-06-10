@@ -121,29 +121,22 @@ credit-risk-analysis/
    cd credit-risk-analysis
    ```
 
-2. **Open the project in RStudio**
+2. **Open the script in RStudio**
    ```r
-   # Open credit-risk-analysis.Rproj in RStudio
+   # Open statistical_modeling.R in RStudio
    ```
 
 3. **Install required packages**
    ```r
    # Run this once to install all dependencies
    packages <- c("tidyverse", "mice", "VIM", "randomForest", 
-                 "ggplot2", "rmarkdown")
+                 "ggplot2")
    install.packages(packages)
    ```
 
-4. **Run the analysis scripts in order**
+4. **Run the code**
    ```r
-   source("scripts/01_data_preparation.R")
-   source("scripts/02_exploratory_analysis.R") 
-   source("scripts/03_statistical_modeling.R")
-   ```
-
-5. **Generate the final report**
-   ```r
-   rmarkdown::render("docs/analysis_report.Rmd")
+   source("scripts/statistical_modeling.R")
    ```
 
 ## 📈 Results and Impact
@@ -163,18 +156,11 @@ credit-risk-analysis/
 - **Random Forest**: Variable importance rankings identified
 - **Feature Engineering**: Created interaction terms improving model fit
 
-## 🔗 Additional Resources
-
-- **[Detailed Analysis Report](docs/analysis_report.html)** - Comprehensive findings and methodology
-- **[Interactive Visualizations](https://yourusername.github.io/credit-risk-analysis)** - GitHub Pages site with interactive plots
-- **[Presentation Slides](docs/presentation.pdf)** - Executive summary of findings
-
 ## 📧 Contact & Collaboration
 
-**Author**: Your Name  
-**Email**: your.email@example.com  
-**LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-**Portfolio**: [yourportfolio.com](https://yourportfolio.com)
+**Author**: Temirlan Ospan
+**Email**: ospan.temirlan860@gmail.com 
+**LinkedIn**: [linkedin.com/in/yourprofile]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/temirlan-ospan-a6101b2a6/))  
 
 *Interested in collaborating on data science projects or discussing this analysis? I'd love to connect!*
 
